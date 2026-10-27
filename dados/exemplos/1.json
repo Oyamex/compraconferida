@@ -1,0 +1,24 @@
+{
+  "exemplo": true,
+  "numero": 1,
+  "formato": "c1",
+  "data": "2026-10-26",
+  "conferidoEm": "2026-10-26",
+  "categoria": "Air fryer",
+  "youtube": "",
+  "gancho": ["Caiu para R$ 289.", "É desconto", "de verdade?"],
+  "produto": {
+    "nome": "Air fryer 4 L (exemplo)", "apelido": "A", "preco": 289, "precoDe": 399,
+    "historico": [335, 348, 349, 336, 334, 344, 340, 335, 346, 339, 333, 349, 341, 337, 342, 335, 346, 350, 334, 339, 343, 336, 345, 347, 335, 333, 329, 309, 289],
+    "nota": 4.7, "vendas": 2340, "foto": "",
+    "lojas": [
+      {"loja": "shopee", "preco": 289, "url": "https://shopee.com.br/"},
+      {"loja": "mercadolivre", "preco": 299, "url": "https://www.mercadolivre.com.br/"}
+    ]
+  },
+  "bom": ["Esquenta rápido", "Fácil de limpar"],
+  "ruim": ["Cesto descasca com meses", "Pequena para família"],
+  "compreSe": ["Cozinha para 1 ou 2", "Quer praticidade no dia a dia"],
+  "naoCompreSe": ["Vai usar todo dia por anos", "Cozinha para 4 ou mais"],
+  "pergunta": "Você pagaria R$ 289 nela?"
+}

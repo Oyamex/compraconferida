@@ -1,0 +1,35 @@
+{
+  "exemplo": true,
+  "numero": 2,
+  "formato": "c2",
+  "data": "2026-10-27",
+  "conferidoEm": "2026-10-27",
+  "categoria": "Air fryer",
+  "youtube": "",
+  "gancho": ["Uma dessas está", "com desconto falso.", "Adivinha qual."],
+  "a": {
+    "nome": "Air fryer 4 L (exemplo)", "apelido": "A", "preco": 289, "precoDe": 399,
+    "historico": [335, 348, 349, 336, 334, 344, 340, 335, 346, 339, 333, 349, 341, 337, 342, 335, 346, 350, 334, 339, 343, 336, 345, 347, 335, 333, 329, 309, 289],
+    "nota": 4.7, "vendas": 2340, "foto": "",
+    "lojas": [
+      {"loja": "mercadolivre", "preco": 299, "url": "https://www.mercadolivre.com.br/"},
+      {"loja": "shopee", "preco": 289, "url": "https://shopee.com.br/"}
+    ]
+  },
+  "b": {
+    "nome": "Air fryer 5,5 L (exemplo)", "apelido": "B", "preco": 449, "precoDe": 599,
+    "historico": [452, 461, 458, 447, 446, 455, 459, 452, 459, 450, 447, 460, 456, 449, 451, 452, 458, 462, 448, 450, 454, 449, 456, 458, 452, 447, 455, 449],
+    "nota": 4.8, "vendas": 1180, "foto": "",
+    "lojas": [
+      {"loja": "shopee", "preco": 449, "url": "https://shopee.com.br/"}
+    ]
+  },
+  "rodadas": [
+    {"titulo": "Cabe a comida de quantos?", "a": "4 L: até 2 pessoas", "b": "5,5 L: até 4 pessoas", "vence": "b", "dica": "Para 4 pessoas, a de 4 L faz duas levas"},
+    {"titulo": "Gasto de energia", "a": "1.400 W", "b": "1.700 W", "vence": "a", "dica": "Uns R$ 3 a menos por mês, usando todo dia"},
+    {"titulo": "Defeito mais citado", "a": "Cesto descasca", "b": "Barulho alto", "vence": "empate", "dica": "As duas têm 12 meses de garantia"}
+  ],
+  "seA": ["Mora sozinho ou a dois", "Quer gastar menos agora"],
+  "seB": ["Cozinha para a família", "Faz frango inteiro"],
+  "pergunta": "Você tinha acertado qual era?"
+}

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /dados/
+Disallow: /fonte/
+
+Sitemap: https://compraconferida.com.br/sitemap.xml
