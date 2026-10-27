@@ -113,6 +113,7 @@ def cabeca(tit, desc, caminho, extra=""):
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{url}">
 <meta name="theme-color" content="#146c47">
+<meta name="p:domain_verify" content="2c860a5dbd18bd2c79daa2c8ef55940d">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{MARCA}">
 <meta property="og:locale" content="pt_BR">
