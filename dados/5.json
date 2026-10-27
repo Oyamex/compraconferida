@@ -1,0 +1,57 @@
+{
+  "formato": "c1",
+  "data": "2026-10-27",
+  "conferidoEm": "2026-10-27",
+  "tituloPontos": [
+    "O que o rótulo",
+    "e a loja mostram"
+  ],
+  "rotuloBom": "A favor",
+  "rotuloRuim": "Contra",
+  "fontePontos": "ficha",
+  "numero": 5,
+  "categoria": "Cabelo",
+  "titulo": "Bye Bye Volume da Forever Liss: onde está mais barato?",
+  "descricao": "O Bye Bye Volume e No Frizz da Forever Liss (200 ml) aparece por R$ 39,90 na loja oficial da marca na Shopee. Na farmácia, o menor preço que achamos foi R$ 52,90 (Drogaria São Paulo). Conferimos e dizemos para quem ele serve.",
+  "gancho": [
+    "Mesmo produto,",
+    "preço diferente"
+  ],
+  "produto": {
+    "nome": "Bye Bye Volume e No Frizz Forever Liss 200 ml",
+    "apelido": "Bye Bye Volume",
+    "preco": 39.9,
+    "precoDe": 69.9,
+    "historico": [
+      39.9
+    ],
+    "fonteHistorico": "Preço da loja oficial na Shopee em 27/10/2026 (Feed de produto dos Afiliados); na farmácia, R$ 52,90 na Drogaria São Paulo no mesmo dia",
+    "nota": 4.92,
+    "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m4ubus6gp3n6fa",
+    "lojas": [
+      {
+        "loja": "shopee",
+        "preco": 39.9,
+        "url": "https://s.shopee.com.br/an_redir?origin_link=https%3A%2F%2Fshopee.com.br%2Fproduct%2F427106553%2F13002664827&affiliate_id=18347711319&sub_id=v5-site-c1-A",
+        "pagina": "https://shopee.com.br/product/427106553/13002664827"
+      }
+    ]
+  },
+  "bom": [
+    "Nota 4,9 na loja oficial",
+    "R$ 13 abaixo da farmácia"
+  ],
+  "ruim": [
+    "Só age com calor",
+    "Não alisa: tira volume e frizz"
+  ],
+  "compreSe": [
+    "Usa secador ou chapinha",
+    "Quer menos volume e frizz"
+  ],
+  "naoCompreSe": [
+    "Quer liso sem calor",
+    "Quer alisamento de verdade"
+  ],
+  "pergunta": "Você usa algo contra o frizz?"
+}
