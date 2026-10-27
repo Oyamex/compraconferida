@@ -3,34 +3,97 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Compra Conferida</title>
-<meta name="description" content="Antes de comprar, a gente confere: o que dizem as avaliações reais, se o preço caiu de verdade e para quem o produto vale a pena.">
+<title>Compra Conferida · Antes de comprar, a gente confere</title>
+<meta name="description" content="O que dizem as avaliações reais, se o preço caiu de verdade e para quem o produto vale a pena. Vereditos curtos, sem enrolação.">
+<meta name="theme-color" content="#146c47">
+<meta property="og:title" content="Compra Conferida">
+<meta property="og:description" content="Antes de comprar, a gente confere.">
+<link rel="icon" href="marca.svg" type="image/svg+xml">
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-<header><div class="caixa">
-  <a class="logo" href="index.html">Compra <span>Conferida</span></a>
-  <nav><a href="transparencia.html">Transparência</a><a href="privacidade.html">Privacidade</a></nav>
+
+<header class="topo"><div class="caixa">
+  <a class="logo" href="index.html"><img src="marca.svg" alt="">Compra Conferida</a>
+  <nav class="menu"><a class="opcional" href="#como">Como conferimos</a><a href="transparencia.html">Transparência</a><a class="opcional" href="privacidade.html">Privacidade</a></nav>
 </div></header>
 
-<main><div class="caixa">
-  <div class="selo">Em breve: os primeiros comparativos</div>
-  <h1>Antes de comprar, a gente confere.</h1>
-  <p class="lead">Lemos as avaliações de quem já comprou, acompanhamos o preço e dizemos com clareza para quem o produto vale a pena e para quem não vale.</p>
+<main>
+  <section class="abertura"><div class="caixa">
+    <div>
+      <div class="sobrelinha">Guia de compra independente</div>
+      <h1>Antes de comprar, <span class="marca-texto">a gente confere.</span></h1>
+      <p class="lead">Lemos as avaliações de quem já comprou, acompanhamos o preço e dizemos com clareza para quem o produto vale a pena, e para quem não vale.</p>
+      <div class="acoes">
+        <a class="botao" href="#guias">Ver os guias</a>
+        <a class="botao claro" href="#como">Como conferimos</a>
+      </div>
+    </div>
 
-  <div class="passos">
-    <div class="passo"><b>Avaliações reais</b>Contamos os defeitos e elogios que mais se repetem entre os compradores.</div>
-    <div class="passo"><b>Preço de verdade</b>Comparamos o preço de hoje com o dos últimos 90 dias. Promoção falsa não passa.</div>
-    <div class="passo"><b>Veredito</b>"Compre se..." e "não compre se...". Sem enrolação.</div>
-  </div>
+    <div class="cartao veredito" aria-label="Exemplo de veredito">
+      <div class="cabeca">
+        <span class="produto">Fone Bluetooth X</span>
+        <span class="selo alerta">Exemplo</span>
+      </div>
+      <div class="preco">
+        <span class="agora">R$ 129</span>
+        <span class="antes">R$ 159</span>
+        <span class="selo">Menor preço em 90 dias</span>
+      </div>
+      <svg class="grafico" viewBox="0 0 300 70" role="img" aria-label="Preço caindo nos últimos 90 dias">
+        <line class="grade" x1="0" y1="64" x2="300" y2="64"/>
+        <polyline points="0,22 30,18 60,24 90,14 120,20 150,16 180,26 210,30 240,34 270,48 300,58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="300" cy="58" r="4.5" fill="currentColor"/>
+      </svg>
+      <ul class="barras">
+        <li>Bateria cai depois de 3 meses <span class="valor">37%</span><span class="trilho"><span style="width:37%"></span></span></li>
+        <li>Microfone fraco em chamadas <span class="valor">21%</span><span class="trilho"><span style="width:21%"></span></span></li>
+      </ul>
+      <div class="colunas">
+        <div class="lado sim"><b>Compre se</b>quer ouvir música no dia a dia.</div>
+        <div class="lado nao"><b>Não compre se</b>faz muitas chamadas de trabalho.</div>
+      </div>
+    </div>
+  </div></section>
 
-  <h2>Como ganhamos dinheiro</h2>
-  <p>Alguns links levam a lojas parceiras, e recebemos uma pequena comissão se você comprar por eles. O preço para você não muda, e o veredito não depende disso. Detalhes em <a href="transparencia.html">Transparência</a>.</p>
-</div></main>
+  <section class="secao" id="como"><div class="caixa">
+    <div class="sobrelinha">Como conferimos</div>
+    <h2 class="texto">Três perguntas antes de qualquer veredito.</h2>
+    <div class="passos">
+      <div class="passo">
+        <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>O que dizem os compradores?</h3>
+        <p>Contamos os defeitos e elogios que mais se repetem nas avaliações. Um caso isolado não vira regra.</p>
+      </div>
+      <div class="passo">
+        <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="15 7 21 7 21 13"/></svg></div>
+        <h3>O preço caiu de verdade?</h3>
+        <p>Comparamos o preço de hoje com o dos últimos 90 dias. Promoção inventada não passa.</p>
+      </div>
+      <div class="passo">
+        <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <h3>Para quem vale a pena?</h3>
+        <p>Todo guia termina em "compre se" e "não compre se". Às vezes a melhor compra é não comprar.</p>
+      </div>
+    </div>
+  </div></section>
 
-<footer><div class="caixa">
-  <p>Como Associado da Amazon, recebemos por compras qualificadas.</p>
-  <p>© 2026 Compra Conferida · <a href="privacidade.html">Política de privacidade</a></p>
+  <section class="secao" id="guias"><div class="caixa">
+    <div class="sobrelinha">Guias</div>
+    <h2>Últimos vereditos</h2>
+    <div class="vazio">Os primeiros guias estão sendo conferidos e chegam em breve.</div>
+  </div></section>
+
+  <section class="secao"><div class="caixa texto">
+    <div class="sobrelinha">Como ganhamos dinheiro</div>
+    <p class="lead">Alguns links levam a lojas parceiras, e recebemos uma pequena comissão se você comprar por eles. O preço para você não muda, e o veredito não depende disso. <a href="transparencia.html">Detalhes em Transparência</a>.</p>
+  </div></section>
+</main>
+
+<footer class="rodape"><div class="caixa">
+  <p>© 2026 Compra Conferida · Como Associado da Amazon, recebemos por compras qualificadas.</p>
+  <p><a href="transparencia.html">Transparência</a> · <a href="privacidade.html">Privacidade</a> · <a href="mailto:compraconferida@gmail.com">Contato</a></p>
 </div></footer>
+
 </body>
 </html>
