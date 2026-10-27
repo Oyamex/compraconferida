@@ -184,7 +184,8 @@ def grafico(p):
             f'aria-label="Preço de {e(p["nome"])} nos últimos {len(hist)} dias, de {reais(lo)} a {reais(hi)}">'
             f'<polygon points="{area}" class="area"/><polyline points="{linha}" class="linha"/>'
             f'<circle cx="{x}" cy="{y}" r="4"/></svg>'
-            f'<figcaption><span>{len(hist)} dias atrás</span><span>mín. {reais(lo)} · máx. {reais(hi)}</span><span>hoje</span></figcaption></figure>')
+            f'<figcaption><span>{len(hist)} dias atrás</span><span>mín. {reais(lo)} · máx. {reais(hi)}</span><span>hoje</span></figcaption>'
+            + (f'<p class="aviso">{e(p["fonteHistorico"])}.</p>' if p.get("fonteHistorico") else "") + '</figure>')
 
 
 def cartao_produto(p, d, rotulo=None, vencedor=False):
@@ -286,12 +287,15 @@ def pagina_video(d, todos):
         cartoes = f'<div class="vs um">{cartao_produto(p, d)}</div>'
         partes.append(f"""<section class="secao-p"><h2>O preço caiu de verdade?</h2>{grafico(p)}
 <p class="explica {desconto(p)['tom'] if desconto(p) else ''}">{e(desconto(p)['texto']) if desconto(p) else ''}</p></section>""")
-        partes.append(f"""<section class="secao-p"><h2>O que dizem os compradores</h2>
-<div class="colunas"><div class="lado sim"><b>Elogiam</b>{lista(d['bom'])}</div>
-<div class="lado nao"><b>Reclamam</b>{lista(d['ruim'])}</div></div></section>""")
+        # "fontePontos": "ficha" quando os prós e contras vêm da ficha técnica, não das avaliações
+        ficha = d.get("fontePontos") == "ficha"
+        partes.append(f"""<section class="secao-p"><h2>{e(" ".join(d.get("tituloPontos") or ["O que dizem os compradores"]))}</h2>
+<div class="colunas"><div class="lado sim"><b>{e(d.get("rotuloBom", "Elogiam"))}</b>{lista(d['bom'])}</div>
+<div class="lado nao"><b>{e(d.get("rotuloRuim", "Reclamam"))}</b>{lista(d['ruim'])}</div></div></section>""")
         faq = [
             (f"{p['nome']} vale a pena?", f"Vale para quem {d['compreSe'][0].lower()}. Não vale para quem {d['naoCompreSe'][0].lower()}."),
             ("O desconto é real?", desconto(p)["texto"] + "." if desconto(p) else "Ainda não temos histórico suficiente."),
+            ("Qual o ponto fraco?", f"{d['ruim'][0]}, pela ficha técnica do fabricante.") if ficha else
             ("Qual o defeito mais citado?", f"{d['ruim'][0]}, segundo as avaliações dos compradores."),
         ]
         fixo = (f'<a href="{e(lojas_ordenadas(p)[0]["url"])}" rel="sponsored nofollow noopener" target="_blank">'
@@ -530,6 +534,9 @@ def carregar(previa):
             d = json.loads(f.read_text(encoding="utf-8"))
             if d.get("exemplo") and not previa:
                 sys.exit(f"{f.name} está marcado como exemplo: não pode ser publicado.")
+            # na prévia, o dado real vence o exemplo de mesmo número
+            if d.get("exemplo") and any(x["numero"] == d["numero"] for x in todos):
+                continue
             todos.append(d)
     vistos = set()
     for d in todos:

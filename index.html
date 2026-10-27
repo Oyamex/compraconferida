@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="/marca.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/estilo.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://compraconferida.com.br/#org", "name": "Compra Conferida", "url": "https://compraconferida.com.br/", "logo": "https://compraconferida.com.br/og.png", "email": "compraconferida@gmail.com", "sameAs": ["https://www.youtube.com/@compraconferida", "https://www.tiktok.com/@compraconferida", "https://www.instagram.com/compraconferida", "https://br.pinterest.com/compraconferida"]}, {"@type": "WebSite", "@id": "https://compraconferida.com.br/#site", "url": "https://compraconferida.com.br/", "name": "Compra Conferida", "inLanguage": "pt-BR", "publisher": {"@id": "https://compraconferida.com.br/#org"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://compraconferida.com.br/#org", "name": "Compra Conferida", "url": "https://compraconferida.com.br/", "logo": "https://compraconferida.com.br/og.png", "email": "compraconferida@gmail.com", "sameAs": ["https://www.youtube.com/@compraconferida", "https://www.tiktok.com/@compraconferida", "https://www.instagram.com/compraconferida", "https://br.pinterest.com/compraconferida"]}, {"@type": "WebSite", "@id": "https://compraconferida.com.br/#site", "url": "https://compraconferida.com.br/", "name": "Compra Conferida", "inLanguage": "pt-BR", "publisher": {"@id": "https://compraconferida.com.br/#org"}}, {"@type": "ItemList", "name": "Comparações", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://compraconferida.com.br/1/", "name": "Air fryer Britânia Bella Cuccina BCAF40C: o desconto é de verdade?"}]}]}</script>
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -34,16 +34,15 @@
     <p class="lead">Dois produtos lado a lado, o preço de hoje contra o de sempre e para quem cada um vale a pena. Em um minuto.</p>
     <form class="procura" id="procura" role="search" action="/" autocomplete="off">
       <label for="campo">Viu um número no vídeo? Procure aqui</label>
-      <div class="campo-linha"><span class="prefixo">Nº</span><input id="campo" name="n" inputmode="numeric" placeholder="Ex.: 12" aria-describedby="msg"><button class="botao" type="submit">Abrir</button></div>
+      <div class="campo-linha"><span class="prefixo">Nº</span><input id="campo" name="n" inputmode="numeric" placeholder="Ex.: 1" aria-describedby="msg"><button class="botao" type="submit">Abrir</button></div>
       <p class="msg" id="msg" role="status"></p>
     </form>
   </div>
-  <div class="cartao vitrine" aria-hidden="true">
-  <div class="cabeca"><span class="numero-video">Nº 1</span><span class="tinta-3">Assim fica cada comparação</span></div>
-  <div class="linha-vitrine"><div class="mini sem-foto"></div><div><b>Produto A</b><span class="numero">R$ 289</span></div><span class="selo bom">−14% real</span></div>
-  <div class="linha-vitrine"><div class="mini sem-foto"></div><div><b>Produto B</b><span class="numero">R$ 449</span></div><span class="selo ruim">Desconto de vitrine</span></div>
-  <span class="ver">Preço, defeitos e para quem vale</span>
-</div>
+  <a class="cartao vitrine" href="/1/">
+  <div class="cabeca"><span class="numero-video">Nº 1</span><span class="tinta-3">Mais recente</span></div>
+  <div class="linha-vitrine"><div class="mini"><img src="https://cf.shopee.com.br/file/sg-11134201-7rdx1-mc6jvsgg1o9a4d" alt="Air fryer Britânia Bella Cuccina 3,5 L BCAF40C" loading="lazy" width="400" height="300"></div><div><b>Air fryer Britânia Bella Cuccina 3,5 L BCAF40C</b><span class="numero">R$ 219,90</span></div><span class="selo bom">−45% real</span></div>
+  <span class="ver">Ver a comparação →</span>
+</a>
 </div></section>
 
 <section class="confianca"><div class="caixa">
@@ -55,7 +54,14 @@
 <section class="secao" id="comparacoes"><div class="caixa">
   <div class="sobrelinha">Comparações</div>
   <h2>Da mais nova para a mais antiga</h2>
-  <p class="vazio">As primeiras comparações estão sendo conferidas e chegam em breve.</p>
+  <div class="guias" id="lista"><a class="guia" href="/1/" data-numero="1" data-busca="air fryer britânia bella cuccina 3,5 l bcaf40c air fryer">
+  <div class="fotos"><div class="foto"><img src="https://cf.shopee.com.br/file/sg-11134201-7rdx1-mc6jvsgg1o9a4d" alt="Air fryer Britânia Bella Cuccina 3,5 L BCAF40C" loading="lazy" width="400" height="300"></div><span class="numero-video">Nº 1</span></div>
+  <div class="corpo">
+    <div class="selos"><span class="selo bom">Desconto real</span></div>
+    <h3>Air fryer Britânia Bella Cuccina BCAF40C: o desconto é de verdade?</h3>
+    <p class="meta"><span class="numero">R$ 219,90</span><span>27/10/2026</span></p>
+  </div>
+</a></div><p class="vazio" id="nada" hidden>Nenhuma comparação com esse número ou nome.</p>
 </div></section>
 
 <section class="secao" id="como"><div class="caixa">
@@ -85,7 +91,7 @@
 </div></footer>
 <script>
 (() => {
-  const numeros = new Set([]);
+  const numeros = new Set([1]);
   const form = document.getElementById('procura'), campo = document.getElementById('campo');
   const cartoes = [...document.querySelectorAll('#lista .guia')], nada = document.getElementById('nada'), msg = document.getElementById('msg');
   const filtrar = () => {
