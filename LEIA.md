@@ -54,3 +54,4 @@ Cada produto: `nome`, `apelido`, `preco`, `precoDe`, `historico` (preços diári
 - **Ordem do CSS:** regra de `@media` escrita antes da regra base perde para ela. Ajustes de celular vão depois do componente.
 - **Python no Windows:** o terminal usa cp1252; `print` com seta ou acento quebra. Mensagens do gerador ficam sem esses caracteres.
 - **Porta da prévia:** outro chat pode estar com a 8765 ocupada; a prévia do site usa a 8767.
+- **Open API da Shopee Afiliados:** GraphQL em `open-api.affiliate.shopee.com.br/graphql`. Cabeçalho `Authorization: SHA256 Credential=<AppID>, Timestamp=<unix>, Signature=<sha256(AppID+Timestamp+corpo+Senha)>`, com o corpo assinado idêntico ao enviado (JSON compacto). Sem cabeçalho: "Invalid Authorization Header"; assinatura certa sem acesso liberado: erro 10035. Consultas usadas: `productOfferV2` (busca de ofertas) e `generateShortLink` (link curto com até 5 `subIds`, como `c2-12-site`). O cliente fica fora deste repositório.
