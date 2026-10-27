@@ -28,6 +28,8 @@ Prévia local: servidor `site-compraconferida` (porta 8767) no `.claude/launch.j
 
 Cada produto: `nome`, `apelido`, `preco`, `precoDe`, `historico` (preços diários, o último é hoje), `nota`, `vendas`, `foto` (URL), `disponivel` (false mostra "indisponível") e `lojas: [{loja, preco, url}]`, com `loja` em `shopee`, `mercadolivre`, `amazon` ou `tiktok`. O botão da loja mais barata vem primeiro e em destaque.
 
+**Link por origem:** cada loja aceita `"porOrigem": {"pinterest": "<link com Sub_id2 pinterest>"}`. Quem chega por `/<n>/?de=pinterest` (ou vindo de um site `pinterest.*`) fica marcado na sessão do navegador, e os botões de loja e a barra fixa passam a usar o link daquela origem. Sem `porOrigem` nos dados, a página não leva o script. O pin aponta para `https://compraconferida.com.br/<n>/?de=pinterest`, nunca direto para a loja: o pin vive meses, a página se atualiza, e o Pinterest desconfia de link curto que redireciona.
+
 ## Regras de conteúdo
 
 - Todo valor em dinheiro leva "R$".

@@ -159,10 +159,29 @@ def foto(p, classe="foto"):
             '<path d="m21 17-5-5-8 7"/></svg></div>')
 
 
+def por_origem(l):
+    """Atributos data-<origem> com o link de afiliado de cada origem (ex.: Sub_id2 pinterest); o script ORIGEM troca o href."""
+    return "".join(f' data-{e(o)}="{e(u)}"' for o, u in (l.get("porOrigem") or {}).items())
+
+
+# Quem chega com ?de=<origem> (ou vindo do pinterest.*) fica marcado na sessão, e os botões de loja
+# passam a usar o link daquela origem, para o relatório da loja separar as vendas por rede.
+ORIGEM = """<script>
+(() => {
+  let o = new URLSearchParams(location.search).get('de');
+  if (!o && /(^|\\.)pinterest\\./.test(document.referrer ? new URL(document.referrer).hostname : '')) o = 'pinterest';
+  try { if (o) sessionStorage.setItem('origem', o); else o = sessionStorage.getItem('origem'); } catch (_) {}
+  if (!o || !/^[a-z]+$/.test(o)) return;
+  document.querySelectorAll('a[data-' + o + ']').forEach(a => { a.href = a.dataset[o]; });
+})();
+</script>
+"""
+
+
 def botao_loja(l, n, principal):
     nome, sigla = LOJAS.get(l["loja"], (l["loja"].title(), l["loja"][:1].upper()))
     classe = "botao-loja" + (" principal" if principal else "")
-    return (f'<a class="{classe}" href="{e(l["url"])}" rel="sponsored nofollow noopener" target="_blank" '
+    return (f'<a class="{classe}" href="{e(l["url"])}"{por_origem(l)} rel="sponsored nofollow noopener" target="_blank" '
             f'data-loja="{e(l["loja"])}" data-video="{n}"><span class="sigla s-{e(l["loja"])}">{sigla}</span>'
             f'<span class="onde">Ver na {nome}</span><span class="valor numero">{reais(l["preco"])}</span>'
             '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" '
@@ -274,7 +293,7 @@ def pagina_video(d, todos):
             (f"O desconto da {a['nome']} é real?", desconto(a)["texto"] + "." if desconto(a) else "Ainda não temos histórico suficiente."),
             (f"O desconto da {b['nome']} é real?", desconto(b)["texto"] + "." if desconto(b) else "Ainda não temos histórico suficiente."),
         ]
-        fixo = "".join(f'<a href="{e(lojas_ordenadas(p)[0]["url"])}" rel="sponsored nofollow noopener" target="_blank">'
+        fixo = "".join(f'<a href="{e(lojas_ordenadas(p)[0]["url"])}"{por_origem(lojas_ordenadas(p)[0])} rel="sponsored nofollow noopener" target="_blank">'
                        f'<span>{e(p["apelido"])}</span><b class="numero">{reais(melhor_preco(p))}</b></a>'
                        for p in ps if lojas_ordenadas(p))
     else:
@@ -298,7 +317,7 @@ def pagina_video(d, todos):
             ("Qual o ponto fraco?", f"{d['ruim'][0]}, pela ficha técnica do fabricante.") if ficha else
             ("Qual o defeito mais citado?", f"{d['ruim'][0]}, segundo as avaliações dos compradores."),
         ]
-        fixo = (f'<a href="{e(lojas_ordenadas(p)[0]["url"])}" rel="sponsored nofollow noopener" target="_blank">'
+        fixo = (f'<a href="{e(lojas_ordenadas(p)[0]["url"])}"{por_origem(lojas_ordenadas(p)[0])} rel="sponsored nofollow noopener" target="_blank">'
                 f'<span>Melhor preço</span><b class="numero">{reais(melhor_preco(p))}</b></a>') if lojas_ordenadas(p) else ""
 
     video = ""
@@ -359,7 +378,7 @@ def pagina_video(d, todos):
 <p class="aviso-final">Alguns links levam a lojas parceiras, e recebemos uma pequena comissão se você comprar por eles. O preço para você não muda. <a href="/transparencia.html">Como trabalhamos</a>.</p>
 </div></main>
 {f'<nav class="barra-fixa" aria-label="Comprar">{fixo}</nav>' if fixo else ''}
-"""
+{ORIGEM if '"porOrigem"' in json.dumps(d) else ''}"""
     return cabeca(f"{tit} | {MARCA}", desc, caminho, json_ld(ld)) + corpo + rodape()
 
 
