@@ -91,6 +91,18 @@
 </div></footer>
 <script>
 (() => {
+  const ref = document.referrer ? new URL(document.referrer).hostname : '';
+  let o = new URLSearchParams(location.search).get('de') || (ref.match(/(pinterest|instagram|tiktok|youtube|facebook)\./) || [])[1];
+  try { if (o) sessionStorage.setItem('origem', o); else o = sessionStorage.getItem('origem'); } catch (_) {}
+  if (!o || !/^[a-z0-9]{1,20}$/.test(o)) return;
+  document.querySelectorAll('a[data-pagina]').forEach(a => {
+    a.href = 'https://s.shopee.com.br/an_redir?origin_link=' + encodeURIComponent(a.dataset.pagina) +
+      '&affiliate_id=18347711319&sub_id=' + a.dataset.sub.replace('{o}', o);
+  });
+})();
+</script>
+<script>
+(() => {
   const numeros = new Set([1]);
   const form = document.getElementById('procura'), campo = document.getElementById('campo');
   const cartoes = [...document.querySelectorAll('#lista .guia')], nada = document.getElementById('nada'), msg = document.getElementById('msg');

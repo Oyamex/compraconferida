@@ -142,7 +142,7 @@ def rodape(script=""):
   </div>
   <p><a href="/transparencia.html">Transparência</a> · <a href="/privacidade.html">Privacidade</a> · <a href="mailto:compraconferida@gmail.com">Contato</a><br>© {date.today().year} {MARCA}</p>
 </div></footer>
-{script}</body>
+{ORIGEM}{script}</body>
 </html>
 """
 
@@ -159,23 +159,32 @@ def foto(p, classe="foto"):
             '<path d="m21 17-5-5-8 7"/></svg></div>')
 
 
+AFILIADO_SHOPEE = "18347711319"  # código público da conta, o mesmo que vai em todo link de afiliado (mmp_pid)
+
+
 def por_origem(l):
-    """Atributos data-<origem> com o link de afiliado de cada origem (ex.: Sub_id2 pinterest); o script ORIGEM troca o href."""
-    return "".join(f' data-{e(o)}="{e(u)}"' for o, u in (l.get("porOrigem") or {}).items())
+    """Na Shopee, a página do produto e o molde do Sub_id (v<n>-{o}-<formato>-<A/B>) para o script ORIGEM montar o link."""
+    if l["loja"] != "shopee" or not l.get("pagina") or not l.get("_sub"):
+        return ""
+    return f' data-pagina="{e(l["pagina"])}" data-sub="{e(l["_sub"])}"'
 
 
-# Quem chega com ?de=<origem> (ou vindo do pinterest.*) fica marcado na sessão, e os botões de loja
-# passam a usar o link daquela origem, para o relatório da loja separar as vendas por rede.
+# Quem chega com ?de=<origem> (ou vindo de pinterest, instagram, tiktok, youtube ou facebook) fica marcado na
+# sessão, e os botões da Shopee passam a usar um link de afiliado montado aqui com o Sub_id2 daquela origem
+# (formato an_redir da Shopee, conferido em 27/10/2026). Sem origem, vale o link oficial dos dados ("site").
 ORIGEM = """<script>
 (() => {
-  let o = new URLSearchParams(location.search).get('de');
-  if (!o && /(^|\\.)pinterest\\./.test(document.referrer ? new URL(document.referrer).hostname : '')) o = 'pinterest';
+  const ref = document.referrer ? new URL(document.referrer).hostname : '';
+  let o = new URLSearchParams(location.search).get('de') || (ref.match(/(pinterest|instagram|tiktok|youtube|facebook)\\./) || [])[1];
   try { if (o) sessionStorage.setItem('origem', o); else o = sessionStorage.getItem('origem'); } catch (_) {}
-  if (!o || !/^[a-z]+$/.test(o)) return;
-  document.querySelectorAll('a[data-' + o + ']').forEach(a => { a.href = a.dataset[o]; });
+  if (!o || !/^[a-z0-9]{1,20}$/.test(o)) return;
+  document.querySelectorAll('a[data-pagina]').forEach(a => {
+    a.href = 'https://s.shopee.com.br/an_redir?origin_link=' + encodeURIComponent(a.dataset.pagina) +
+      '&affiliate_id=AFILIADO&sub_id=' + a.dataset.sub.replace('{o}', o);
+  });
 })();
 </script>
-"""
+""".replace("AFILIADO", AFILIADO_SHOPEE)
 
 
 def botao_loja(l, n, principal):
@@ -252,6 +261,9 @@ def pagina_video(d, todos):
     caminho = f"/{n}/"
     ps = produtos(d)
     partes = []
+    for letra, p in zip("AB", ps):
+        for l in p.get("lojas", []):
+            l["_sub"] = f"v{n}-{{o}}-{d['formato']}-{letra}"
 
     if d["formato"] == "c2":
         a, b = d["a"], d["b"]
@@ -378,7 +390,7 @@ def pagina_video(d, todos):
 <p class="aviso-final">Alguns links levam a lojas parceiras, e recebemos uma pequena comissão se você comprar por eles. O preço para você não muda. <a href="/transparencia.html">Como trabalhamos</a>.</p>
 </div></main>
 {f'<nav class="barra-fixa" aria-label="Comprar">{fixo}</nav>' if fixo else ''}
-{ORIGEM if '"porOrigem"' in json.dumps(d) else ''}"""
+"""
     return cabeca(f"{tit} | {MARCA}", desc, caminho, json_ld(ld)) + corpo + rodape()
 
 
