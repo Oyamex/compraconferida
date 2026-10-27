@@ -1,0 +1,140 @@
+{
+  "formato": "c1",
+  "data": "2026-10-27",
+  "conferidoEm": "2026-10-27",
+  "tituloPontos": [
+    "O que a ficha",
+    "mostra"
+  ],
+  "rotuloBom": "A favor",
+  "rotuloRuim": "Contra",
+  "fontePontos": "ficha",
+  "numero": 2,
+  "categoria": "Sanduicheira",
+  "titulo": "Sanduicheira Britânia BGR27I Press: o desconto é de verdade?",
+  "descricao": "A sanduicheira e grill Britânia BGR27I aparece por R$ 139,90 na Shopee, “de” R$ 209,90. Conferimos o preço contra os últimos 40 dias e dizemos para quem ela serve.",
+  "gancho": [
+    "Está R$ 139,90",
+    "“em promoção”.",
+    "Não está."
+  ],
+  "produto": {
+    "nome": "Sanduicheira e grill Britânia BGR27I Press 2 em 1 850 W",
+    "apelido": "Britânia Press",
+    "preco": 139.9,
+    "precoDe": 209.9,
+    "historico": [
+      93.91,
+      93.91,
+      93.91,
+      93.91,
+      93.91,
+      93.91,
+      93.91,
+      93.91,
+      93.91,
+      93.91,
+      93.91,
+      93.91,
+      93.91,
+      93.91,
+      116.91,
+      119,
+      119,
+      93.18,
+      93.18,
+      93.18,
+      93.18,
+      93.18,
+      93.18,
+      93.18,
+      93.18,
+      119,
+      119,
+      119,
+      119,
+      119,
+      119,
+      119,
+      119,
+      125.26,
+      125.26,
+      126.17,
+      126.17,
+      129,
+      123.11,
+      139.9
+    ],
+    "fonteHistorico": "Menor preço do mercado por dia (Buscapé), de 18/9 a 26/10; hoje, o preço da Shopee",
+    "nota": 4.91,
+    "foto": "https://cf.shopee.com.br/file/sg-11134201-825a1-mudinxa6nw20f5",
+    "lojas": [
+      {
+        "loja": "shopee",
+        "preco": 139.9,
+        "url": "https://s.shopee.com.br/an_redir?origin_link=https%3A%2F%2Fshopee.com.br%2Fproduct%2F811879342%2F22396095321&affiliate_id=18347711319&sub_id=v2-site-c1-A",
+        "pagina": "https://shopee.com.br/product/811879342/22396095321"
+      }
+    ]
+  },
+  "bom": [
+    "Nota 4,9 na Shopee",
+    "Chapa de cima se ajusta ao lanche"
+  ],
+  "ruim": [
+    "Chapa pequena: 22 x 14,5 cm",
+    "Chapa de baixo lisa, sem marcas"
+  ],
+  "compreSe": [
+    "Quer uma grill simples",
+    "Precisa dela agora"
+  ],
+  "naoCompreSe": [
+    "Pode esperar o preço cair",
+    "Já saiu por menos de R$ 100"
+  ],
+  "pergunta": "Você já caiu num desconto desses?",
+  "blocos": {
+    "desconto": 4.2,
+    "pontos": 23.0,
+    "veredito": 38.0,
+    "fecho": 50.1,
+    "fim": 57.2
+  },
+  "destaques": [
+    {
+      "em": 0.8,
+      "texto": "R$ 139,90"
+    },
+    {
+      "em": 17.5,
+      "texto": "MERCADO: R$ 93 A R$ 129",
+      "tom": "neutro"
+    },
+    {
+      "em": 21.7,
+      "texto": "DESCONTO INFLADO",
+      "tom": "ruim"
+    },
+    {
+      "em": 25.0,
+      "texto": "NOTA 4,9",
+      "tom": "bom"
+    },
+    {
+      "em": 31.0,
+      "texto": "CHAPA 22 x 14,5 CM",
+      "tom": "ruim"
+    },
+    {
+      "em": 40.4,
+      "texto": "PRECISA HOJE: OK",
+      "tom": "bom"
+    },
+    {
+      "em": 44.6,
+      "texto": "PODE ESPERAR? ESPERE",
+      "tom": "ruim"
+    }
+  ]
+}

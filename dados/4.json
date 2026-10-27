@@ -1,0 +1,145 @@
+{
+  "formato": "c1",
+  "data": "2026-10-27",
+  "conferidoEm": "2026-10-27",
+  "tituloPontos": [
+    "O que a ficha",
+    "mostra"
+  ],
+  "rotuloBom": "A favor",
+  "rotuloRuim": "Contra",
+  "fontePontos": "ficha",
+  "numero": 4,
+  "categoria": "Ventilador",
+  "titulo": "Ventilador Britânia Maxx Force BVT304: está mesmo em promoção?",
+  "descricao": "O ventilador Britânia Maxx Force BVT304 rosa aparece por R$ 149,90 na Shopee, “de” R$ 169,90. Conferimos o preço contra os últimos 40 dias e dizemos para quem ele serve.",
+  "gancho": [
+    "O calor chegou.",
+    "Está mesmo",
+    "em promoção?"
+  ],
+  "produto": {
+    "nome": "Ventilador Britânia Maxx Force BVT304 rosa 60 W",
+    "apelido": "Maxx Force",
+    "preco": 149.9,
+    "precoDe": 169.9,
+    "historico": [
+      139.9,
+      139.9,
+      139.9,
+      139.9,
+      139.9,
+      139.9,
+      139.9,
+      139.9,
+      139.9,
+      139.9,
+      139.9,
+      139.9,
+      139.9,
+      139.9,
+      159.71,
+      159.71,
+      159.71,
+      159.71,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      135.9,
+      149.9
+    ],
+    "fonteHistorico": "Menor preço do mercado por dia (Buscapé, versão 220 V), de 18/9 a 26/10; hoje, o preço da Shopee",
+    "nota": 4.87,
+    "foto": "https://cf.shopee.com.br/file/sg-11134201-8258x-mudirro997nm68",
+    "lojas": [
+      {
+        "loja": "shopee",
+        "preco": 149.9,
+        "url": "https://s.shopee.com.br/an_redir?origin_link=https%3A%2F%2Fshopee.com.br%2Fproduct%2F811879342%2F22992864536&affiliate_id=18347711319&sub_id=v4-site-c1-A",
+        "pagina": "https://shopee.com.br/product/811879342/22992864536"
+      }
+    ]
+  },
+  "bom": [
+    "Nota 4,9 na Shopee",
+    "Só 60 W; grade sai para limpar"
+  ],
+  "ruim": [
+    "Só 3 velocidades",
+    "Hélice de 30 cm, de mesa"
+  ],
+  "compreSe": [
+    "Quer economia no quarto",
+    "Gosta do rosa"
+  ],
+  "naoCompreSe": [
+    "Quer um ventilador grande",
+    "Pode comprar em outra loja"
+  ],
+  "pergunta": "Você já ligou o ventilador este mês?",
+  "blocos": {
+    "desconto": 3.8,
+    "pontos": 27.3,
+    "veredito": 42.5,
+    "fecho": 53.1,
+    "fim": 59.3
+  },
+  "destaques": [
+    {
+      "em": 0.6,
+      "texto": "R$ 149,90"
+    },
+    {
+      "em": 21.0,
+      "texto": "MERCADO: R$ 135,90",
+      "tom": "neutro"
+    },
+    {
+      "em": 24.0,
+      "texto": "R$ 14 ACIMA",
+      "tom": "ruim"
+    },
+    {
+      "em": 29.2,
+      "texto": "NOTA 4,9",
+      "tom": "bom"
+    },
+    {
+      "em": 32.4,
+      "texto": "SÓ 60 W",
+      "tom": "bom"
+    },
+    {
+      "em": 36.3,
+      "texto": "SÓ 3 VELOCIDADES",
+      "tom": "ruim"
+    },
+    {
+      "em": 44.6,
+      "texto": "QUARTO: SIM",
+      "tom": "bom"
+    },
+    {
+      "em": 49.0,
+      "texto": "VENTILADOR GRANDE: NÃO",
+      "tom": "ruim"
+    }
+  ]
+}
