@@ -1,0 +1,58 @@
+{
+  "formato": "c1",
+  "data": "2026-10-28",
+  "conferidoEm": "2026-10-28",
+  "tituloPontos": [
+    "O que o rótulo",
+    "e a loja mostram"
+  ],
+  "rotuloBom": "A favor",
+  "rotuloRuim": "Contra",
+  "fontePontos": "ficha",
+  "numero": 6,
+  "youtube": "",
+  "categoria": "Pele",
+  "titulo": "Kit Kokeshi 3 passos: farmácia ou loja da marca?",
+  "descricao": "O kit da Kokeshi com Pele de Porcelana, Olhos de Gueixa e Gota de Colágeno sai por R$ 59,90 na loja oficial da marca na Shopee. Na farmácia (Drogasil), R$ 106,90. Nas lojas da própria marca o preço fica perto disso: R$ 59,90 no site da Kokeshi. Conferimos e dizemos para quem ele serve.",
+  "gancho": [
+    "Mesmo kit,",
+    "preço diferente"
+  ],
+  "produto": {
+    "nome": "Kit Facial Kokeshi 3 Passos: Pele de Porcelana, Olhos de Gueixa e Gota de Colágeno",
+    "apelido": "Kit Kokeshi",
+    "preco": 59.9,
+    "precoDe": 85.9,
+    "historico": [
+      59.9
+    ],
+    "fonteHistorico": "Preço da loja oficial na Shopee em 28/10/2026 (Feed de produto dos Afiliados); no mesmo dia, R$ 106,90 na Drogasil e R$ 59,90 no site da Kokeshi",
+    "nota": 4.93,
+    "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-mqbygibr40sg7a",
+    "lojas": [
+      {
+        "loja": "shopee",
+        "preco": 59.9,
+        "url": "https://s.shopee.com.br/an_redir?origin_link=https%3A%2F%2Fshopee.com.br%2Fproduct%2F395166866%2F22494941454&affiliate_id=18347711319&sub_id=v6-site-c1-A",
+        "pagina": "https://shopee.com.br/product/395166866/22494941454"
+      }
+    ]
+  },
+  "bom": [
+    "Nota 4,9 na loja oficial",
+    "R$ 47 abaixo da farmácia"
+  ],
+  "ruim": [
+    "Os três têm perfume na fórmula",
+    "A Gota de Colágeno tem cânfora e mentol"
+  ],
+  "compreSe": [
+    "Quer rosto e olhos num kit só",
+    "Quer uma rotina de hidratação simples"
+  ],
+  "naoCompreSe": [
+    "Sua pele reage a perfume",
+    "Não se dá bem com cânfora ou mentol"
+  ],
+  "pergunta": "Você usa creme para a área dos olhos?"
+}
