@@ -1,0 +1,58 @@
+{
+  "formato": "c1",
+  "data": "2026-10-29",
+  "conferidoEm": "2026-10-29",
+  "tituloPontos": [
+    "O que o rótulo",
+    "e a loja mostram"
+  ],
+  "rotuloBom": "A favor",
+  "rotuloRuim": "Contra",
+  "fontePontos": "ficha",
+  "numero": 7,
+  "youtube": "",
+  "categoria": "Pele",
+  "titulo": "Pele de Porcelana Kokeshi: farmácia, site da marca ou loja oficial?",
+  "descricao": "O hidratante facial Pele de Porcelana, da Kokeshi (30 g), sai por R$ 29,17 na loja oficial da marca na Shopee. No mesmo dia, R$ 35,00 a R$ 36,40 na Drogasil e R$ 32,25 no site da própria Kokeshi. Conferimos e dizemos para quem ele serve.",
+  "gancho": [
+    "Mesmo creme,",
+    "preço diferente"
+  ],
+  "produto": {
+    "nome": "Hidratante Creme Facial Pele de Porcelana Kokeshi 30 g",
+    "apelido": "Pele de Porcelana",
+    "preco": 29.17,
+    "precoDe": 42.9,
+    "historico": [
+      29.17
+    ],
+    "fonteHistorico": "Preço da loja oficial na Shopee no Feed de produto dos Afiliados de 28/10/2026; em 29/10, R$ 35,00 a R$ 36,40 na Drogasil e R$ 32,25 no site da Kokeshi",
+    "nota": 4.91,
+    "foto": "https://cf.shopee.com.br/file/br-11134207-820m6-mq3n8g0o1ama14",
+    "lojas": [
+      {
+        "loja": "shopee",
+        "preco": 29.17,
+        "url": "https://s.shopee.com.br/an_redir?origin_link=https%3A%2F%2Fshopee.com.br%2Fproduct%2F395166866%2F9319243207&affiliate_id=18347711319&sub_id=v7-site-c1-A",
+        "pagina": "https://shopee.com.br/product/395166866/9319243207"
+      }
+    ]
+  },
+  "bom": [
+    "Nota 4,9 com mais de 250 mil curtidas",
+    "Mais barato que a farmácia e o site da marca"
+  ],
+  "ruim": [
+    "Tem perfume e óleo de amêndoa na fórmula",
+    "Não tem protetor solar: é de uso noturno"
+  ],
+  "compreSe": [
+    "Quer um hidratante facial simples para a noite",
+    "Gosta de óleo de rosa mosqueta e de arroz"
+  ],
+  "naoCompreSe": [
+    "Sua pele reage a perfume",
+    "Tem alergia a amêndoa"
+  ],
+  "pergunta": "Você passa hidratante no rosto antes de dormir?"
+}
