@@ -1,0 +1,58 @@
+{
+  "formato": "c1",
+  "data": "2026-10-30",
+  "conferidoEm": "2026-10-30",
+  "tituloPontos": [
+    "O que o rótulo",
+    "e a loja mostram"
+  ],
+  "rotuloBom": "A favor",
+  "rotuloRuim": "Contra",
+  "fontePontos": "ficha",
+  "numero": 8,
+  "youtube": "",
+  "categoria": "Cabelo",
+  "titulo": "Xô Frizz da Forever Liss: onde está mais barato?",
+  "descricao": "O Xô Frizz, da Forever Liss (10 g), sai por R$ 29,90 na loja oficial da marca na Shopee, o mesmo preço do site da marca (lá, R$ 28,41 no Pix). Na farmácia, o menor preço que achamos foi R$ 32,55 (Droga Raia); no Mercado Livre, R$ 31,99. Conferimos e dizemos para quem ele serve.",
+  "gancho": [
+    "Mesmo produto,",
+    "preço diferente"
+  ],
+  "produto": {
+    "nome": "Xô Frizz Modelador de Fios Forever Liss 10 g",
+    "apelido": "Xô Frizz",
+    "preco": 29.9,
+    "precoDe": 49.99,
+    "historico": [
+      29.9
+    ],
+    "fonteHistorico": "Preço da loja oficial na Shopee no Feed de produto dos Afiliados de 27/10/2026; preços de fora vistos em buscas até 30/10/2026",
+    "nota": 4.88,
+    "foto": "https://cf.shopee.com.br/file/698348cd12c99214d07ecaa10374a36b",
+    "lojas": [
+      {
+        "loja": "shopee",
+        "preco": 29.9,
+        "url": "https://s.shopee.com.br/an_redir?origin_link=https%3A%2F%2Fshopee.com.br%2Fproduct%2F427106553%2F20914439989&affiliate_id=18347711319&sub_id=v8-site-c1-A",
+        "pagina": "https://shopee.com.br/product/427106553/20914439989"
+      }
+    ]
+  },
+  "bom": [
+    "Nota 4,9 com quase 50 mil curtidas",
+    "R$ 2,65 abaixo do menor preço em farmácia"
+  ],
+  "ruim": [
+    "É só um retoque: não trata o fio",
+    "Tem álcool e perfume na fórmula"
+  ],
+  "compreSe": [
+    "Quer baixar fio solto e baby hair",
+    "Quer algo pequeno para levar na bolsa"
+  ],
+  "naoCompreSe": [
+    "Quer tratar o frizz do cabelo todo",
+    "Sua pele reage a perfume"
+  ],
+  "pergunta": "Baby hair: você arruma ou deixa solto?"
+}
