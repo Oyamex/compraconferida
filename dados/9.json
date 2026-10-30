@@ -1,0 +1,58 @@
+{
+  "formato": "c1",
+  "data": "2026-10-30",
+  "conferidoEm": "2026-10-30",
+  "tituloPontos": [
+    "O que o rótulo",
+    "e a loja mostram"
+  ],
+  "rotuloBom": "A favor",
+  "rotuloRuim": "Contra",
+  "fontePontos": "ficha",
+  "numero": 9,
+  "youtube": "",
+  "categoria": "Cabelo",
+  "titulo": "Kit S.O.S Cachos litrão: Magalu, site da marca ou loja oficial?",
+  "descricao": "O kit S.O.S Cachos Óleo de Coco, da Salon Line (shampoo de 1 L e condicionador de 1 L), sai por R$ 49,00 na loja oficial da marca na Shopee. O menor preço que achamos fora foi R$ 53,90 no Magalu; no site da Salon Line, R$ 59,54. Conferimos e dizemos para quem ele serve.",
+  "gancho": [
+    "Mesmo kit,",
+    "preço diferente"
+  ],
+  "produto": {
+    "nome": "Kit S.O.S Cachos Óleo de Coco Salon Line: Shampoo 1 L + Condicionador 1 L",
+    "apelido": "S.O.S Cachos Coco",
+    "preco": 49,
+    "precoDe": 66.15,
+    "historico": [
+      49
+    ],
+    "fonteHistorico": "Preço da loja oficial na Shopee no Feed de produto dos Afiliados de 28/10/2026; em 30/10, R$ 53,90 no Magalu (Buscapé), R$ 59,54 no site da Salon Line e R$ 67,99 na Amazon (Buscapé)",
+    "nota": 4.91,
+    "foto": "https://cf.shopee.com.br/file/sg-11134201-8258a-msbwmmolzx8m23",
+    "lojas": [
+      {
+        "loja": "shopee",
+        "preco": 49,
+        "url": "https://s.shopee.com.br/an_redir?origin_link=https%3A%2F%2Fshopee.com.br%2Fproduct%2F616222685%2F16324454755&affiliate_id=18347711319&sub_id=v9-site-c1-A",
+        "pagina": "https://shopee.com.br/product/616222685/16324454755"
+      }
+    ]
+  },
+  "bom": [
+    "Nota 4,9 com mais de 43 mil curtidas",
+    "R$ 4,90 abaixo do menor preço que achamos fora"
+  ],
+  "ruim": [
+    "Não é liberado: fora de low poo e no poo",
+    "São 2 litros de uma vez: não serve só para testar"
+  ],
+  "compreSe": [
+    "Tem cabelo ondulado, cacheado ou crespo, ressecado ou com frizz",
+    "Quer 1 litro de shampoo e 1 de condicionador no mesmo pedido"
+  ],
+  "naoCompreSe": [
+    "Faz low poo ou no poo",
+    "Só quer experimentar antes de levar 2 litros"
+  ],
+  "pergunta": "Você faz low poo ou usa shampoo comum?"
+}
