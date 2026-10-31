@@ -1,0 +1,57 @@
+{
+  "formato": "c1",
+  "data": "2026-10-31",
+  "conferidoEm": "2026-10-31",
+  "tituloPontos": [
+    "O que o rótulo",
+    "e a loja mostram"
+  ],
+  "rotuloBom": "A favor",
+  "rotuloRuim": "Contra",
+  "fontePontos": "ficha",
+  "numero": 10,
+  "categoria": "Pele",
+  "titulo": "Sérum de Limpeza Vitamina C Garnier: farmácia, Beleza na Web ou loja oficial?",
+  "descricao": "O Sérum de Limpeza Iluminador Vitamina C, da Garnier (100 g), sai por R$ 30,77 na loja oficial da marca na Shopee. O menor preço que achamos fora foi R$ 38,90 à vista na Beleza na Web; na Drogasil, R$ 42,99. Atenção: apesar do nome, é de enxaguar. Conferimos e dizemos para quem ele serve.",
+  "gancho": [
+    "Mesmo tubo,",
+    "preço diferente"
+  ],
+  "produto": {
+    "nome": "Garnier Sérum de Limpeza Iluminador Vitamina C 100 g",
+    "apelido": "Sérum de Limpeza Garnier",
+    "preco": 30.77,
+    "precoDe": 40.79,
+    "historico": [
+      30.77
+    ],
+    "fonteHistorico": "Preço da loja oficial na Shopee no Feed de produto dos Afiliados de 28/10/2026; em 31/10, R$ 38,90 à vista na Beleza na Web (R$ 40,90 a prazo), R$ 42,99 na Drogasil e R$ 43,19 no Buscapé",
+    "nota": 4.96,
+    "foto": "https://cf.shopee.com.br/file/br-11134207-820ln-mpmmgt0xrapt6f",
+    "lojas": [
+      {
+        "loja": "shopee",
+        "preco": 30.77,
+        "url": "https://s.shopee.com.br/an_redir?origin_link=https%3A%2F%2Fshopee.com.br%2Fproduct%2F1855147906%2F58262796052&affiliate_id=18347711319&sub_id=v10-site-c1-A",
+        "pagina": "https://shopee.com.br/product/1855147906/58262796052"
+      }
+    ]
+  },
+  "bom": [
+    "Nota 4,96 com mais de 5 mil curtidas",
+    "R$ 8,13 abaixo do menor preço que achamos fora"
+  ],
+  "ruim": [
+    "Apesar do nome, é de enxaguar: não substitui um sérum de deixar na pele",
+    "O título indica para pele normal a oleosa"
+  ],
+  "compreSe": [
+    "Tem pele normal a oleosa e quer um limpador facial com vitamina C",
+    "Sabe que é um produto de limpeza, para enxaguar"
+  ],
+  "naoCompreSe": [
+    "Procura um sérum para deixar na pele",
+    "Tem pele seca e quer um produto indicado especificamente para ela"
+  ],
+  "pergunta": "Você já usa um limpador facial ou só sabonete comum?"
+}
