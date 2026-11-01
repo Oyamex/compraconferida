@@ -1,0 +1,60 @@
+{
+  "formato": "c1",
+  "data": "2026-11-01",
+  "conferidoEm": "2026-11-01",
+  "tituloPontos": [
+    "O que o rótulo",
+    "e a loja mostram"
+  ],
+  "rotuloBom": "A favor",
+  "rotuloRuim": "Contra",
+  "fontePontos": "ficha",
+  "numero": 11,
+  "youtube": "",
+  "categoria": "Cabelo",
+  "titulo": "Kit S.O.S Hidratação Salon Line: Amazon, Magalu ou loja oficial?",
+  "descricao": "O Kit S.O.S Hidratação, da Salon Line (shampoo 1 L, condicionador 1 L e máscara 1 kg), sai por R$ 69,20 na loja oficial da marca na Shopee. O menor preço do kit que achamos fora foi R$ 75,04 na Amazon; no Magalu, R$ 85,91 no pix. Atenção: se você só quer a máscara, não compensa. Conferimos e dizemos para quem ele serve.",
+  "gancho": [
+    "Mesmo kit,",
+    "preço diferente"
+  ],
+  "produto": {
+    "nome": "Kit S.O.S Hidratação Salon Line: shampoo 1 L, condicionador 1 L e máscara 1 kg",
+    "apelido": "Kit S.O.S Hidratação",
+    "preco": 69.2,
+    "precoDe": 102.9,
+    "historico": [
+      69.2
+    ],
+    "fonteHistorico": "Preço da loja oficial na Shopee no Feed de produto dos Afiliados de 28/10/2026; em 1/11, o kit a R$ 75,04 na Amazon e R$ 85,91 no pix no Magalu; a máscara sozinha a R$ 21,90 na Drogasil (loja parceira)",
+    "nota": 4.91,
+    "foto": "https://cf.shopee.com.br/file/br-11134207-820ly-mqryzodqnz7la0",
+    "lojas": [
+      {
+        "loja": "shopee",
+        "preco": 69.2,
+        "url": "https://s.shopee.com.br/an_redir?origin_link=https%3A%2F%2Fshopee.com.br%2Fproduct%2F616222685%2F58204162949&affiliate_id=18347711319&sub_id=v11-site-c1-A",
+        "pagina": "https://shopee.com.br/product/616222685/58204162949"
+      }
+    ]
+  },
+  "bom": [
+    "Nota 4,91 com mais de 16 mil curtidas",
+    "R$ 5,84 abaixo do menor preço do kit que achamos fora",
+    "Vem com 1 L de shampoo, 1 L de condicionador e 1 kg de máscara"
+  ],
+  "ruim": [
+    "Sozinha, a máscara de 1 kg sai por R$ 21,90: o kit só compensa para quem quer os três",
+    "A ficha diz que os três não são liberados para low poo e no poo",
+    "A ficha diz que os três não são veganos"
+  ],
+  "compreSe": [
+    "Quer os três produtos da mesma linha, para cabelo danificado, ressecado ou sem brilho",
+    "Tem cabelo liso, ondulado, cacheado ou crespo: a ficha indica para todos"
+  ],
+  "naoCompreSe": [
+    "Só quer a máscara",
+    "Faz low poo ou no poo, ou procura produto vegano"
+  ],
+  "pergunta": "Você compra shampoo em litro ou prefere embalagem menor?"
+}
