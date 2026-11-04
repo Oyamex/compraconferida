@@ -1,0 +1,59 @@
+{
+  "formato": "c1",
+  "data": "2026-11-04",
+  "conferidoEm": "2026-11-04",
+  "tituloPontos": [
+    "O que o rótulo",
+    "e a loja mostram"
+  ],
+  "rotuloBom": "A favor",
+  "rotuloRuim": "Contra",
+  "fontePontos": "ficha",
+  "numero": 12,
+  "categoria": "Cabelo",
+  "titulo": "Kit Explosão de Óleos Africanos bn.Cachos: site da marca, avulso ou loja oficial?",
+  "descricao": "O Kit Explosão de Óleos Africanos, da bn.Cachos (Beleza Natural), com shampoo 300 ml, condicionador 300 ml, máscara 500 g e creme de pentear 1 kg, sai por R$ 69,99 na loja oficial da marca na Shopee. No site da própria marca, o mesmo kit custa R$ 78,99; comprando os quatro separados no mais barato que achamos, R$ 80,68. Conferimos e dizemos para quem ele serve.",
+  "gancho": [
+    "Mesmo kit,",
+    "preço diferente"
+  ],
+  "produto": {
+    "nome": "Kit Explosão de Óleos Africanos bn.Cachos: shampoo 300 ml, condicionador 300 ml, máscara 500 g e creme de pentear 1 kg",
+    "apelido": "Kit Explosão de Óleos Africanos",
+    "preco": 69.99,
+    "precoDe": 157.99,
+    "historico": [
+      69.99
+    ],
+    "fonteHistorico": "Preço da loja oficial na Shopee no Feed de produto dos Afiliados de 28/10/2026; em 4/11, o kit a R$ 78,99 no site da bn.Cachos e os quatro separados por R$ 80,68 no mais barato (shampoo e condicionador a R$ 15,90 cada na Amazon; máscara a R$ 19,99 e creme de pentear a R$ 28,89 no Magalu, vistos no Buscapé)",
+    "nota": 4.9,
+    "foto": "https://cf.shopee.com.br/file/br-11134207-820lj-mldjn9clrtomb2",
+    "lojas": [
+      {
+        "loja": "shopee",
+        "preco": 69.99,
+        "url": "https://s.shopee.com.br/an_redir?origin_link=https%3A%2F%2Fshopee.com.br%2Fproduct%2F1202663615%2F20997725486&affiliate_id=18347711319&sub_id=v12-site-c1-A",
+        "pagina": "https://shopee.com.br/product/1202663615/20997725486"
+      }
+    ]
+  },
+  "bom": [
+    "Nota 4,90 com mais de 39 mil curtidas",
+    "R$ 9,00 abaixo do mesmo kit no site da própria marca",
+    "Quatro produtos da mesma linha: da lavagem à finalização"
+  ],
+  "ruim": [
+    "É para cabelo ondulado, cacheado ou crespo (2B a 4C): não serve para liso",
+    "O preço da loja oficial é do Feed de 28/10 e pode ter mudado",
+    "Quem já tem um dos quatro produtos paga por um que não precisa"
+  ],
+  "compreSe": [
+    "Tem cabelo ondulado, cacheado ou crespo, ressecado ou sem brilho",
+    "Quer a linha inteira, do shampoo ao creme de pentear"
+  ],
+  "naoCompreSe": [
+    "Tem cabelo liso",
+    "Só quer um ou dois dos produtos"
+  ],
+  "pergunta": "Você usa a linha inteira ou mistura produtos de marcas diferentes?"
+}
