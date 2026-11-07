@@ -1,0 +1,59 @@
+{
+  "formato": "c1",
+  "data": "2026-11-07",
+  "conferidoEm": "2026-11-07",
+  "tituloPontos": [
+    "O que o rótulo",
+    "e a loja mostram"
+  ],
+  "rotuloBom": "A favor",
+  "rotuloRuim": "Contra",
+  "fontePontos": "ficha",
+  "numero": 13,
+  "categoria": "Cabelo",
+  "titulo": "Kit 4 Tônicos Gota Dourada: site da marca, avulso ou loja oficial?",
+  "descricao": "O Kit Tônicos Capilares da Gota Dourada, com os tônicos Tradicional (de alho), Biotina, Hialurônico e Rícino, 100 ml cada, sai por R$ 49 na loja oficial da marca na Shopee. No site da própria marca, os quatro separados custam R$ 67,60; no mais barato que achamos, R$ 61,16. Conferimos e dizemos o que fazer antes de usar.",
+  "gancho": [
+    "Mesmos tônicos,",
+    "preço diferente"
+  ],
+  "produto": {
+    "nome": "Kit Tônicos Capilares Gota Dourada: Tradicional (alho), Biotina, Hialurônico e Rícino, 100 ml cada",
+    "apelido": "Kit 4 Tônicos Gota Dourada",
+    "preco": 49,
+    "precoDe": 60,
+    "historico": [
+      49
+    ],
+    "fonteHistorico": "Preço da loja oficial na Shopee no Feed de produto dos Afiliados de 28/10/2026; em 7/11, os quatro tônicos a R$ 16,90 cada no site da Gota Dourada (R$ 67,60; o kit não é vendido lá) e por R$ 61,16 no mais barato (Tradicional e Rícino a R$ 13,68 cada na Amazon, vendidos pela própria Amazon; Biotina e Hialurônico no site da marca)",
+    "nota": 4.94,
+    "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-md7t9yy69ycy5a",
+    "lojas": [
+      {
+        "loja": "shopee",
+        "preco": 49,
+        "url": "https://s.shopee.com.br/an_redir?origin_link=https%3A%2F%2Fshopee.com.br%2Fproduct%2F1382606196%2F23198801181&affiliate_id=18347711319&sub_id=v13-site-c1-A",
+        "pagina": "https://shopee.com.br/product/1382606196/23198801181"
+      }
+    ]
+  },
+  "bom": [
+    "Nota 4,94 com mais de 4 mil curtidas",
+    "R$ 18,60 abaixo dos quatro avulsos no site da própria marca",
+    "Quatro tônicos diferentes para alternar na rotina"
+  ],
+  "ruim": [
+    "A marca pede prova de toque antes (atrás da orelha, 45 minutos)",
+    "O preço da loja oficial é do Feed de 28/10 e pode ter mudado",
+    "Tônico não substitui consulta: queda forte ou repentina é caso de dermatologista"
+  ],
+  "compreSe": [
+    "Quer testar tônicos de raiz para fortalecimento e queda",
+    "Tem tempo de deixar o tônico agir umas 2 horas antes de lavar"
+  ],
+  "naoCompreSe": [
+    "Teve reação no teste atrás da orelha",
+    "Só quer um dos quatro tônicos: avulso sai a partir de R$ 13,68"
+  ],
+  "pergunta": "Você já usou tônico capilar? Qual deu mais resultado no seu cabelo?"
+}
